@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    /* border: 5px solid red; */
+}
+
+#navbar header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    /* border: 2px solid; */
+    border-right: 2px solid blue;
+    height: 100%;
+    font-size: 20px;
+    background-color: aqua;
+    box-shadow: 5px -5px 5px 1px blue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-top: 1rem;
+}
+
+#main-doc {
+    background-color: burlywood;
+}
+.main-section header {
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    box-shadow: 0px 1px 1px 1px black;
+    background-color: white;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 1rem;
+    font-size: 1.3em;
+}
+
+pre {
+    padding-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.example {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+
+.main-section header:hover {
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    box-shadow: 0px 2px 1px 1px blue;
+    background-color: aquamarine;
+    transition: 1s;
+}
+
+.example:hover, pre:hover {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    transition: 1s;
+}
+
+li:hover {
+    list-style-type: none;
+    padding-left: 1.2rem;
+    font-size: 1.5em;
+    transition: 1s;
+}
